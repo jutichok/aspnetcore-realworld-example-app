@@ -56,7 +56,7 @@ public static class Program
             });
 
         Target(Publish, DependsOn(Test),
-            ForEach("src/Conduit"),
+            ForEach("src/C3"),
             project =>
             {
                 Run("dotnet",
